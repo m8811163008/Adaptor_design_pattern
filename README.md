@@ -1,17 +1,19 @@
-# adaptor_design_pattern
+# Adaptor_design_pattern
 
-adaptor design pattern [structural] base on GoF book
+Adaptor design pattern [structural] base on GoF book
 
 ## Getting Started
+
 Adaptor is a structural design pattern, also known as wrapper.
 The purpose of this pattern is convert the interface of a class into another interface clients expect.Adaptor lets classes work together that couldn't otherwise because of incompatible interfaces.
 
 The pattern is useful when you want to ensure that some particular piece of code in your software could be reused by wrapping it with an adapter and exposing an interface to it.This lets the future implementations in your code depend on Adapter interfaces, rather than concrete classes directly.
 
 ##Applicability
-*The adapter design pattern could and should! be used when the interface of the third-party library does not match the one you are currently using in your application. 
-*When calling external data sources, APIs and you want to wrap and separate the data conversion code from the primary business logic in your program.
-*The pattern is useful when you want to use multiple implementation (adaptees) that have similar functionality but use different APIs
+
+- The adapter design pattern could and should! be used when the interface of the third-party library does not match the one you are currently using in your application. 
+- When calling external data sources, APIs and you want to wrap and separate the data conversion code from the primary business logic in your program. 
+  - The pattern is useful when you want to use multiple implementation (adaptees) that have similar functionality but use different APIs
 
 ##Implementation
 Let’s say, in the Flutter application we want to collect our 
