@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "fullName" : "John Doe (JSON)",
+      "email" : "johndoe@json.com",
+      "favourite" : true
+    },
+    {
+      "fullName" : "Ema Doe (JSON)",
+      "email" : "emandoe@json.com",
+      "favourite" : false
+    },
+    {
+      "fullName" : "Micheal Roe (JSON)",
+      "email" : "michro@json.com",
+      "favourite" : false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<contacts>
+    <contact>
+        <fullName>
+            John doe(XML)
+        </fullName>
+        <email>
+            johndow@xml.com
+        </email>
+        <favourite>
+            false
+        </favourite>
+    </contact>
+    <contact>
+        <fullName>
+            Ema Doe(XML)
+        </fullName>
+        <email>
+            emmadow@xml.com
+        </email>
+        <favourite>
+            true
+        </favourite>
+    </contact>
+    <contact>
+        <fullName>
+            Micheal roe(XML)
+        </fullName>
+        <email>
+            michrow@xml.com
+        </email>
+        <favourite>
+            true
+        </favourite>
+    </contact>
+</contacts>
