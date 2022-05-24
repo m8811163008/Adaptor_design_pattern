@@ -13,9 +13,10 @@ The pattern is useful when you want to ensure that some particular piece of code
 
 - The adapter design pattern could and should! be used when the interface of the third-party library does not match the one you are currently using in your application. 
 - When calling external data sources, APIs and you want to wrap and separate the data conversion code from the primary business logic in your program. 
-  - The pattern is useful when you want to use multiple implementation (adaptees) that have similar functionality but use different APIs
+- The pattern is useful when you want to use multiple implementation (adaptees) that have similar functionality but use different APIs
 
 ##Implementation
+
 Let’s say, in the Flutter application we want to collect our 
 contacts from two different sources. Unfortunately, these two 
 sources provide the contacts in two different formats — JSON and
@@ -29,6 +30,7 @@ interfaces — our UI component (widget), which expects a list of
 Contact objects, and two APIs, which return contacts’ information
 in two different formats. As you could have guessed, we will use 
 the Adapter design pattern to solve this problem.
+
 First of all, there are two APIs: JsonContactsApi and XmlContactsApi.
 These two APIs have different methods to return contacts information in two different formats — JSON and XML.
 Hence, two different adapters should be created to convert the specific contacts’ representation to the required format which is needed in the ContactsSection component (widget) — list of Contact objects
